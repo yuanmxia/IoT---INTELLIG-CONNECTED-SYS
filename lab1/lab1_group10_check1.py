@@ -34,7 +34,7 @@ def O():
     time.sleep_ms(600)
 
 while True:
-    S()
-    O()
+    S()#send S signal
+    O()#send O signal
     S()
     time.sleep(3)
